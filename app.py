@@ -49,8 +49,9 @@ st.sidebar.markdown("#### [11]パートナーシップ(取引先)")
 
 # ④⭐️予測モデル
 # 学習モデルのアップロード
-model_path = 'src/t_model_path_15'
 # model_path = '/src/t_model_path_15'
+# model_path = '/Users/horiuchitakeshi/Desktop/nlp_cl_app/src/t_model_path_15'
+model_path = './src/t_model_path_15'
 
 from transformers import AlbertTokenizer, AlbertForSequenceClassification
 
